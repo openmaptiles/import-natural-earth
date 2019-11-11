@@ -7,7 +7,7 @@ readonly PGCONN="dbname=$POSTGRES_DB user=$POSTGRES_USER host=$POSTGRES_HOST pas
 
 function import_natural_earth() {
     echo "Importing Natural Earth to PostGIS"
-    PGCLIENTENCODING=LATIN1 ogr2ogr \
+    PGCLIENTENCODING=UTF8 ogr2ogr \
     -progress \
     -f Postgresql \
     -s_srs EPSG:4326 \
