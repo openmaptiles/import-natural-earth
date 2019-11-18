@@ -1,6 +1,6 @@
 # !!! OBSOLETE !!!
 
-This repo has been archived. Use [openmaptiles-tools/imports/natural-earth](https://github.com/openmaptiles/openmaptiles-tools/tree/master/imports/natural-earth) instead.
+This repo has been archived. Use [openmaptiles-tools/docker/import-natural-earth](https://github.com/openmaptiles/openmaptiles-tools/tree/master/docker/import-natural-earth) instead.
 
 -----
 
